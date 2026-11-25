@@ -1,0 +1,47 @@
+{
+  "account": [
+    {
+      "acno": "SBI102",
+      "name": "kaleem",
+      "pin": "1234",
+      "fname": "asc",
+      "phone": "898989",
+      "email": "kaleem@gmail.com",
+      "gender": "male",
+      "city": "Dehradun",
+      "state": "Uttrakhand",
+      "country": "India",
+      "amount": "1000",
+      "id": "j3U5S6WX7qk"
+    },
+    {
+      "acno": "SBI102",
+      "name": "sajan",
+      "pin": "1234",
+      "fname": "asc",
+      "phone": "898989",
+      "email": "sajan@gmail.com",
+      "gender": "male",
+      "city": "Dehradun",
+      "state": "Uttrakhand",
+      "country": "India",
+      "amount": "2000",
+      "id": "0IJmfElN_Fg"
+    },
+    {
+      "acno": "SBI103",
+      "name": "rahul",
+      "pin": "1234",
+      "fname": "abc",
+      "phone": "92839",
+      "email": "rahul@gmail.com",
+      "gender": "male",
+      "city": "dehadun",
+      "state": "uttrakhand",
+      "country": "India",
+      "amount": 3020,
+      "id": "IKHmm_KJ1Tg"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
