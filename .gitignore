@@ -1,0 +1,4 @@
+Backened/.env
+Backened/node_modules/
+frontened/mongobank.acounts.json
+frontened/mongobank.registers.json

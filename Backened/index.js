@@ -1,6 +1,11 @@
+const dns = require('dns');
+
+dns.setServers(['8.8.8.8', '8.8.4.4']);
+
 const express = require('express');
 const cors = require('cors');
 const mongoose = require('mongoose');
+require('dotenv').config();
 
 const register = require('./register');
 const userregis = require('./register');
@@ -30,11 +35,10 @@ app.use(session({
 
 const connectDB = async () => {
     try {
-        await mongoose.connect("mongodb://127.0.0.1:27017/mongobank")
-        const AccountInfo = await account.find(); //work now
+        await mongoose.connect(process.env.MONGO_URL)
 
 
-        console.log("Mongodb connected");
+        console.log("Mongodb ATlas connected");
     }
     catch (error) {
         console.error("connection failed", error.message);
